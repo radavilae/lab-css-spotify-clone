@@ -53,9 +53,10 @@ header {
 }
 
 header > div {
-  width: 100%;
   position: absolute;
-  margin: 400px auto 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
 }
 
@@ -114,7 +115,7 @@ h2 {
   padding: 100px;
 }
 
-.container-2 {
+.container {
   display: flex;
   flex-flow: row;
   justify-content: space-between;
@@ -128,6 +129,7 @@ h2 {
 #sectiontwo > div > h1 > span {
   border-bottom: 3px solid #fff;
   color: #fff;
+  flex-basis: 50%;
 }
 
 #sectiontwo > div > h2 {
